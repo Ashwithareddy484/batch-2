@@ -12,12 +12,12 @@ Types of datatypes:
 2.non-primitive data types
 -it can store multiple values
 -mutable
-Class,objects, dunctions, arrays, math, date,json
+Class,objects, functions, arrays, date,json
 
 Primitive datatypes:-
 1.String
 Sequence of characters stored within double quotes/ single quotes, backticks
-Ex: var user=”Mahesh”
+Ex: var user="ashwitha"
     console.log(user);
 2.boolean
 Represents a true or false value.
@@ -41,26 +41,23 @@ Non-primitive datatypes:-
 1.object
 contains collection of key-value pairs
 ex: let user={
-        name:"Mahesh";
+        name:"ashwitha";
         age:20;
     };
     console.log(user);
-
 2.array
 contains an ordered list of elements
 ex: let numbers=[1,2,3,4,5,6,7];
     console.log(numbers);
-
 3.Function
 a reusable block that performs a specific task
 ex: function demo(){
-        var username="Mahesh";
+        var username="ashwitha";
         let city="Hyd";
         const salary=123456789;
         console.log(username,city,salary)
     }
     demo();
-
 4.Date
 represents date and time
 ex: let today = new Date();
