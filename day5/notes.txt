@@ -1,0 +1,38 @@
+functions:-
+
+- functions is a building block of javascript.
+- function is a block of code which is used to execute specific task.
+- function is a non-primitive data type.
+- functins can be reusable.
+
+synatx :-  function function_name(optional parameters,a ){ // function delclaration
+                                //statements
+                                }
+                        function_name(arguments);
+
+types of function:-
+
+1.named function:- function is having a name and invoked(calling) with the same name.
+2.anonymus function:- a function which doesnot have a name for it .
+                    - it cannot be executed by itself.
+3.function expression:- an anonymus function body is assigned as a value to the variable
+                        and same function will be invoked with the same vairable.
+4.IIFE(immidiate invoke function expression):- 
+- it can be invoked only ont time.
+5.Arrow function :- it is introduced in es6 feature.
+- it concise the normal function syntax.
+- ()=>{};
+- arrow function is similar to anonymus function.
+6.Higher order function
+7.callback function
+-closure
+
+Note:- current version of javascript is es14.
+es - ECMA script .
+ECMA - european computer manufacturing association.
+- es6 feature is stable.
+
+explicit return :- explicitly we have to give a keyword called as "return".
+explciit return is possible in both normal function as well as arrow function.
+implicit return:- implicitly(by default) arrow function will take return.
+note:- no printing statements will work after "return" statement.
